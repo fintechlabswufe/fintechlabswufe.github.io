@@ -1,0 +1,47 @@
+/* Reset list styles */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* This centers your menu if there is extra space */
+}
+
+/* Remove default link styling */
+nav a {
+  text-decoration: none;
+  color: #333; /* Change this color to whatever you prefer */
+}
+
+/* Style for each list item */
+nav li {
+  padding: 10px;
+  display: inline-block; /* This makes the list items sit side by side */
+}
+
+/* Additional styling for your navigation bar */
+header {
+  background-color: #f8f8f8; /* This is a light grey background, change as needed */
+  border-bottom: 1px solid #e7e7e7; /* This adds a slight border to the bottom */
+  padding: 10px 0; /* This adds some padding above and below your nav bar */
+}
+
+/* Style for the "Join Us" button */
+.join-button {
+  padding: 10px 20px;
+  background-color: #007bff; /* This is a blue background, change as needed */
+  color: white; /* Text color for the button */
+  text-decoration: none;
+  border-radius: 5px; /* This rounds the corners of the button */
+  margin-left: 20px; /* This adds space between the button and the nav links */
+}
+
+/* Hover effects for links and button */
+nav a:hover, .join-button:hover {
+  color: #0056b3; /* Darker blue on hover, change as needed */
+  text-decoration: underline; /* Underlines links on hover */
+}
+
+.join-button:hover {
+  background-color: #0056b3; /* Darker blue background on hover for the button */
+}
