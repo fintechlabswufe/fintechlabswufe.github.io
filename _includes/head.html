@@ -3,6 +3,50 @@
 <head>
   <!-- ...其他头部元素... -->
 </head>
+<style>
+    /* Add the CSS code here */
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    nav li {
+      padding: 10px;
+      display: inline-block;
+    }
+
+    header {
+      background-color: #f8f8f8;
+      border-bottom: 1px solid #e7e7e7;
+      padding: 10px 0;
+    }
+
+    .join-button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-left: 20px;
+    }
+
+    nav a:hover, .join-button:hover {
+      color: #0056b3;
+      text-decoration: underline;
+    }
+
+    .join-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
 <body>
   <header>
     <nav>
@@ -18,4 +62,5 @@
   <!-- ...页面主体内容... -->
 </body>
 </html>
-<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/_includes/styles.css" />
+
+
